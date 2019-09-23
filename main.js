@@ -1,5 +1,6 @@
 // console.log("somethingHere: " + theCheese);
 //var jsonData = JSON.parse(document.getElementById("tileInfo").textContent);
+
 var whichElement = document.getElementById("auto-flip-1");
 var changeWitch = whichElement.getElementsByClassName("flip-card-front")[0];
 var randomTile = getRandomStuff(jsonData, whichElement);
